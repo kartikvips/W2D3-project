@@ -21,4 +21,8 @@ class Card
     "#{value.to_s.capitalize} of #{suit.capitalize}s"
   end
   
+  def inspect
+    to_s
+  end
+  
 end
